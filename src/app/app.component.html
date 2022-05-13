@@ -3,26 +3,39 @@
 
 
 <div class = "absolute flex justify-center" style = "
-                                    background-color: black; 
+                                    background-color:beige; 
                                     width:100%; 
                                     height:100%;
                                     ">
 
     <div class = "relative" style = 
-                                                                "background-color: blue;
+                                                                "
                                                                 width: 40%;
                                                                 height: 100%;
                                                                 ">
 
-            <div class="absolute" style = "background-color: blueviolet;
+            <div class="absolute shadow-2xl flex items-center justify-center" style = "
+                                            background-color: white;
                                             width: 100%;
                                             height: 50%;
-                                            top: 150px;">
+                                            top: 150px;
+                                            ">
 
                 <form>
+                    <label >Log in</label>
                     <div class="form-group">
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" placeholder = "e-mail">
+                        <small class = "form-text text-muted">Lorem ipsum dolor sit</small>
                     </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder = "password">
+                    </div>
+                    <div class="form-group form-check">
+
+                        <input type="checkbox" class="form-check-input">
+                        <label for="" class = "form-check-label">Remember me</label>
+                    </div>
+                    <button type = "submit" class="btn btn-primary">Access</button>
                 </form>  
 
             </div>
